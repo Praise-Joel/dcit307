@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="card text-center">
+        <div class="card-body">
+            <h1>Voting System</h1>
+            <p>This is a Voting System</p>
+            <p>Created by Group...</p>
+            <ul>
+                <ol class="bi bi-list-ol">Rebecca Hanu Barson</ol>
+                <ol class="bi bi-list-ol">Cecilia Seyram</ol>
+                <ol class="bi bi-list-ol">CJ</ol>
+            </ul>
+            <a href="{%url 'voting:index' %}" class="btn btn-dark">
+                Go to Voting System
+            </a>
+        </div>
+    </div>
+{% endblock %}
